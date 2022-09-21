@@ -152,10 +152,10 @@ function mesesDelAño(array) {
   // "Enero", "Marzo" y "Noviembre", guardarlo en nuevo array y retornarlo.
   //Si alguno de los meses no está, devolver: "No se encontraron los meses pedidos"
   // Tu código:
-  let count = 0;
+  
   const nuevoArray = array.filter(item => { 
     if(item === 'Enero' || item === 'Marzo' || item === 'Noviembre'){
-      count++;
+      
       return item;
     }
   })
